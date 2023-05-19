@@ -7,7 +7,7 @@ const Footer = () => {
 				<div className="h-full w-full flex flex-col justify-between">
 					<div className="h-[70%] w-full flex">
 						<div className="h-[70%] lg:w-[25%] w-[15%] flex lg:pl-20 pl-0 xl:pr-4 lg:pr-6 md:pr-8 pr-10">
-							<img src="../../src/assets/logo2.png" className="lg:h-[25%] h-[20%]"></img>
+							<img src="../src/assets/logo2.png" className="lg:h-[25%] h-[20%]"></img>
 						</div>
 						<div className="h-[70%] lg:text-[2.3rem]  xl:text-[2.5rem] md:text-[1.75rem] sm:text-[1.2rem] text-[1rem] w-[80%] items-center justify-center grid lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 md:grid-cols-4 sm:grid-cols-3 grid-cols-2  gap-x-9 gap-y-8 place-items-center">
 							<p className=" pb-0 ease-linear duration-700 w-fit hover:border-b-[1px] ">Bussiness tools</p>
@@ -44,7 +44,7 @@ const Footer = () => {
 						</p>
 						<div className="h-fit w-fit xl:text-[1.7rem] lg:text-[1.67rem] md:text-[1.45rem] sm:text-[1.32rem] text-[1rem] font-bold flex items-center justify-center">
 							<p className="px-5 whitespace-nowrap">Made in </p>
-							<img src="../../src/assets/India.png" className="w-[40%]" />
+							<img src="../src/assets/India.png" className="w-[40%]" />
 						</div>
 					</div>
 				</div>

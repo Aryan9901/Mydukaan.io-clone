@@ -24,7 +24,7 @@ const Navbar = () => {
 							src="../src/assets/down-arrow.png"
 						/>
 					</p>
-					<p className="cursor-pointer text-gray-950 lg:block xl:text-4xl lg:text-3xl md:text-3xl flex items-center xl:gap-5 lg:gap-4 hidden">
+					<p className="cursor-pointer text-gray-950 lg:block xl:text-4xl lg:text-3xl md:text-3xl  items-center xl:gap-5 lg:gap-4 hidden">
 						Pricing
 					</p>
 				</div>
@@ -34,7 +34,7 @@ const Navbar = () => {
 						Start Free Trial
 					</button>
 				</div>
-				<img src="../../src/assets/hamberger.png" className="lg:hidden md:w-28 sm:w-20 rotate-90 mr-20" />
+				<img src="../src/assets/hamberger.png" className="lg:hidden md:w-28 sm:w-20 rotate-90 mr-20" />
 			</div>
 		</>
 	);

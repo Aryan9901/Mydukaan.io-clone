@@ -1,7 +1,7 @@
 const sdata = [
 	{
 		id: 1,
-		imgsrc: "../../src/assets/cta1.png",
+		imgsrc: "../src/assets/cta1.png",
 		heading: "Launch Fast",
 		st1: "Fully responsive e-commerce website & mobile app.",
 		st2: "Loads 6X faster than existing solutions.",
@@ -13,7 +13,7 @@ const sdata = [
 	},
 	{
 		id: 2,
-		imgsrc: "../../src/assets/cta2.png",
+		imgsrc: "../src/assets/cta2.png",
 		heading: "Scale Faster",
 		st1: "Your store will have 99.5% uptime.",
 		st2: "60+ third party plugins.",
@@ -25,7 +25,7 @@ const sdata = [
 	},
 	{
 		id: 3,
-		imgsrc: "../../src/assets/cta3.png",
+		imgsrc: "../src/assets/cta3.png",
 		heading: "Manage Better",
 		st1: "Order tracking, invoicing and order reports.",
 		st2: "Bulk edit product prices, variants, inventory.",
