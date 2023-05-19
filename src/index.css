@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: Gilroy;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+	font-size: 52.5%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	padding-top: 1px;
+}
+#root {
+	height: 100%;
+	width: 100%;
+}
+.marq::-webkit-scrollbar {
+	display: none;
+}
+.marque-1 {
+	animation-name: logoloop;
+	animation-duration: 30s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-fill-mode: both;
+	animation-direction: forwards;
+}
+.marque-2 {
+	animation-name: logoloop2;
+	animation-duration: 30s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: forwards;
+	animation-fill-mode: both;
+}
+
+@keyframes logoloop {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}
+@keyframes logoloop2 {
+	0% {
+		transform: translateX(275%);
+	}
+	100% {
+		transform: translateX(175%);
+	}
+}
